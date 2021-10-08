@@ -8,7 +8,6 @@ namespace CurrencyDataCronJob
     {
         public string date { get; set; }
         public Dictionary<string, string> metrics = new Dictionary<string, string>();
-        //public Dictionary<string, Dictionary<string, string>> metricsByDate = new Dictionary<string, Dictionary<string, string>>();
 
         /**
         * Transform csv info into a class

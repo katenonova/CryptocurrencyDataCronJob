@@ -26,9 +26,7 @@ namespace CurrencyDataCronJob
 
             for (int i = 1; i < keys.Length - 1; i++)
             {
-
                 currentMetricsByDate.metrics.Add(keys[i], (values[i] != "") ? values[i] : "-");
-
             }
 
             return currentMetricsByDate;
